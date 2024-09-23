@@ -1,0 +1,313 @@
+portfolio.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThePortfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />"
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <nav> <img width="100" src="image copy 7.png">
+       <button >Menu</button>
+
+</nav><div class="imgdec">
+<img src="image copy 5.png" alt="img" height="200" >
+</div>
+<div class="">
+<span class="cx v"><h1><b>Hello!This is Garima Mishra</b></h1></span>
+<span class="cx m">  <h3>|BTECH CSE|| GL BAJAJ || SECOND YEAR</h3></span></div>
+<div class="container">
+<div class="m typing">
+    <p><h3>Passionate about web development, eager to learn new technologies & build innovative solutions daily.</p><p>Always curious, seeking knowledge in programming languages, frameworks & tools.</p><p> Enthusiastic about creating user-friendly, efficient & scalable web applications.</p><p> Constantly exploring new trends & advancements in the tech world. Dedicated to staying updated on industry developments & best practices.</h3></p>
+    </div></div>
+<div class="cx colr v "><h2>Skills</h2></div>
+<div class="cx colr m"><h2>Learnt till date</h2></div>
+<div class="mainbox">
+    <div class="box1"><div class="b">
+        <img src="image copy 4.png" alt="c language"></div></div>
+        <div class="box2"><div class="b">
+            <img src="image copy 3.png" alt="html"></div>
+       </div>
+    <div class="box3 "><div class="b">
+        <img width="225" src="image copy 6.png" alt="css"></div>
+    </div>
+    <div class="box4"><div class="b">
+        <img src="image copy.png" alt="javascript"></div></div></div>
+        
+    <div ><span class="cx m"><h3>PROJECT</h3></span>
+        <div class="yx">
+    <img width="400"  src="image.png" alt="">
+   <div class="nt"><p><h2>NETFLIXCLONE</h2></P><P class="cont">This clone was designed to gain proficiency in creating responsive designs that ensure compatibility across various devices.</P>
+    <a href="https://github.com/garimamishra4/netflixclone.git">"click here to reach project github link"</a></div></div></div>
+   <div><span class="cs m"><h2><b>RESUME:</b></h2></span>
+       <embed src="portfolio resume.pdf" type="application/pdf" width="500" height="200"></div>
+    <div><span class="cs m"><h2><b>CONTACT:</b></h2></span>
+        <div class="icons">
+      <li><a href="https://www.instagram.com/invites/contact/" target="_blank"><i class="fa-brands fa-instagram" style=" color: rgb(192, 32, 139);"></i></a></li>
+      <li><a href="https://www.linkedin.com/in/garima-mishra-54809230a" target="_blank"><i class="fa-brands fa-linkedin" style="color: blue;"></i></a></li>
+        </div></div>    
+    <footer>
+    <div class="cx m ">
+     <h3>&copy;garima's portfolio</h3>
+    </div></footer>
+</body>
+</html>
+
+style.css
+
+body{
+    background-color: black;}
+    
+nav{
+    max-width: 70vw;
+    justify-content: space-between;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    flex-wrap: wrap;
+}
+nav img{
+    border-radius: 50%;
+}
+nav button{
+    background-color: rgb(0, 204, 255);
+    color: beige;
+    border: 1px;
+    border-radius: 0.25rem;
+    size: 40vw;
+}
+.cx{
+position: relative;
+padding: 0 32px;
+gap: 23px;
+display: flex;
+justify-content: center;
+font-family: sans-serif;
+}
+.colr{
+    text-decoration: solid;
+}
+.v{
+    color: white;
+}
+.m{
+    color: grey;
+}
+
+.a{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+
+}
+.imgdec{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    filter: opacity(1.45);
+    border-radius:50%;
+    border-color: fuchsia;
+}
+.imgdec img{
+    border-radius: 50%;
+}
+
+.mainbox{
+    width:auto;
+    height:25vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box1,.box2,.box3,.box4{
+    width: 20%;
+    height: 20vw;
+    float: left;
+    margin: 7px;
+    transition: 0.5s;
+    border: 2px;
+    border-radius: 30%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.b img{
+    border-radius: 60%;
+    filter: drop-shadow(1px 1px 20px rgb(216, 216, 130));
+    
+}
+.container{
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+    word-spacing: 10 cm;
+    padding: 0 32px;
+    gap: 23px;
+    max-resolution: 23;
+}
+.typing{
+    width: 100;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 4s steps(497) infinite forwards ;
+}
+@keyframes typing {
+    0%{
+        width: 0;
+        color: white;
+    }
+    50%{
+        width:100%;
+    }    
+}
+.yx{
+    width: 400px;
+    border: 2px solid #000;
+    margin: 2px; 
+    position: relative;  
+}
+.yx img{
+    height: 246px;
+    border-radius: 5%;
+    transition: all 4s;
+}
+.yx:hover img{
+    transform: scale(0);
+}
+.yx .nt{
+    background-color: aliceblue;
+    color: aqua;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    transform: scale(0) rotate(-180deg);
+    opacity: 0;
+    transition: all 0.4s;
+}
+.yx:hover .nt{
+    opacity: 1;
+    transform: scale(1) rotate(0deg);
+}
+.icons{
+    font-size: 3rem;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    position: absolute;
+    justify-content:center;
+    margin: 1
+     }
+     * Mobile Devices (480px and below) */
+@media only screen and (max-width: 480px) {
+  nav {
+    max-width: 90vw;
+    height: 80px;
+    flex-wrap: wrap;
+  }
+  nav button {
+    size: 60vw;
+  }
+  .cx {
+    padding: 0 16px;
+    gap: 15px;
+  }
+  .mainbox {
+    height: 40vw;
+  }
+  .box1, .box2, .box3, .box4 {
+    width: 40%;
+    height: 30vw;
+  }
+  .container {
+    word-spacing: 5cm;
+    padding: 0 16px;
+  }
+  .yx {
+    width: 300px;
+  }
+  .yx img {
+    height: 200px;
+  }
+  .icons {
+    font-size: 2rem;
+  }
+}
+
+/* Tablets (481px to 768px) */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  nav {
+    max-width: 80vw;
+    height: 90px;
+  }
+  nav button {
+    size: 50vw;
+  }
+  .cx {
+    padding: 0 24px;
+    gap: 20px;
+  }
+  .mainbox {
+    height: 35vw;
+  }
+  .box1, .box2, .box3, .box4 {
+    width: 30%;
+    height: 25vw;
+  }
+  .container {
+    word-spacing: 7cm;
+    padding: 0 24px;
+  }
+  .yx {
+    width: 350px;
+  }
+  .yx img {
+    height: 230px;
+  }
+  .icons {
+    font-size: 2.5rem;
+  }
+}
+
+/* Desktops (769px to 1024px) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  nav {
+    max-width: 70vw;
+    height: 100px;
+  }
+  nav button {
+    size: 40vw;
+  }
+  .cx {
+    padding: 0 32px;
+    gap: 23px;
+  }
+  .mainbox {
+    height: 25vw;
+  }
+  .box1, .box2, .box3, .box4 {
+    width: 20%;
+    height: 20vw;
+  }
+  .container {
+    word-spacing: 10cm;
+    padding: 0 32px;
+  }
+  .yx {
+    width: 400px;
+  }
+  .yx img {
+    height: 246px;
+  }
+  .icons {
+    font-size: 3rem;
+  }
+}
+
